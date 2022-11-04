@@ -1385,7 +1385,7 @@ th {
 
 html {
     font-size: 10px;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 1)
 }
 
 body {
@@ -1437,6 +1437,7 @@ img {
 .thumbnail>img {
     display: block;
     max-width: 100%;
+    margin: 0 auto;
     height: auto
 }
 
@@ -7682,7 +7683,7 @@ button.close {
     margin: 1px;
     text-indent: -999px;
     cursor: pointer;
-    background-color: #000\9;
+    background-color: #000;
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid #fff;
     border-radius: 10px
